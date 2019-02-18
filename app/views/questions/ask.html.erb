@@ -1,0 +1,21 @@
+<!-- <h1>Questions#ask</h1>
+<p>Find me in app/views/questions/ask.html.erb</p> -->
+
+<!-- <form action="/answer" method="get">
+  <input type="text" name="question" placeholder="What is your question?">
+  <input type="submit">
+</form>
+ -->
+ <div class="container pt-5 d-flex flex-column align-items-center">
+  <h1>Stupid Coaching</h1>
+
+  <h5 class="pt-5">Ask your coach anything:</h5>
+
+  <form action="/answer" method="get" class = "form-inline">
+    <div class="form-group">
+      <label for="exampleQuestion"></label>
+      <input type="question" class="form-control" id="exampleQuestion" aria-describedby="questionHelp" placeholder="Enter question" name="question">
+    </div>
+    <button type="submit" class="btn btn-primary">Ask</button>
+  </form>
+ </div>
